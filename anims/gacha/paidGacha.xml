@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Sprite>
+<Textures>
+<Texture FileName="/scripts/mex/anims/gacha/paidGacha.png" Height="996" ImageID="0" Type="FILE" Width="922"/>
+<Texture FileName="" Height="416" ImageID="1" Type="FILE" Width="320"/>
+<Texture FileName="/scripts/mex/anims/gacha/gun1.png" Height="362" ImageID="2" Type="FILE" Width="266"/>
+<Texture FileName="/scripts/mex/anims/gacha/gun2.png" Height="162" ImageID="3" Type="FILE" Width="105"/>
+<Texture FileName="/scripts/mex/anims/common/triangle.gif" Height="9" ImageID="4" Type="FILE" Width="16"/>
+<Texture FileName="/scripts/mex/anims/gacha/rocket.png" Height="141" ImageID="5" Type="FILE" Width="567"/>
+<Texture FileName="/scripts/mex/anims/common/cardShine.gif" Height="416" ImageID="6" Type="FILE" Width="320"/>
+<Texture FileName="" Height="68" ImageID="7" Type="FILE" Width="56"/>
+</Textures>
+<Modules>
+<Module Height="0.8573709" ModuleID="0" Name="module0" TextureID="0" Type="RECTANGLE" Width="0.9901877" X="0.7756673" Y="0.2971907"/>
+<Module Height="0.26307005" ModuleID="1" Name="module1" TextureID="0" Type="RECTANGLE" Width="0.8905003" X="0.79723066" Y="0.15572463"/>
+<Module Height="0.27711645" ModuleID="2" Name="module2" TextureID="0" Type="RECTANGLE" Width="0.9761137" X="0.929618" Y="0.097477265"/>
+<Module Height="1.0" ModuleID="3" Name="module3" TextureID="2" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+<Module Height="0.8453815" ModuleID="4" Name="module4" TextureID="0" Type="RECTANGLE" Width="0.70824295" X="0.44793928" Y="0.34738955"/>
+<Module Height="0.60757077" ModuleID="5" Name="module5" TextureID="0" Type="RECTANGLE" Width="0.17310667" X="0.03319348" Y="0.48708895"/>
+<Module Height="0.4477912" ModuleID="6" Name="module6" TextureID="0" Type="RECTANGLE" Width="0.2646421" X="0.0021691972" Y="0.22188756"/>
+<Module Height="0.05120482" ModuleID="7" Name="module7" TextureID="0" Type="RECTANGLE" Width="0.8427332" X="0.59002167" Y="0.00502008"/>
+<Module Height="0.07329318" ModuleID="8" Name="module8" TextureID="0" Type="RECTANGLE" Width="0.20065074" X="0.092190884" Y="0.029116469"/>
+<Module Height="0.05421688" ModuleID="9" Name="module9" TextureID="0" Type="RECTANGLE" Width="0.08893709" X="0.017353578" Y="0.0"/>
+<Module Height="0.16967872" ModuleID="10" Name="module10" TextureID="0" Type="RECTANGLE" Width="0.09327547" X="0.0" Y="0.07329318"/>
+<Module Height="1.0" ModuleID="11" Name="module11" TextureID="4" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+<Module Height="0.08634538" ModuleID="12" Name="MESSAGE_MODULE" TextureID="0" Type="RECTANGLE" Width="0.5813448" X="0.2570499" Y="0.0030120483"/>
+<Module Height="1.0" ModuleID="13" Name="module13" TextureID="3" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+<Module Height="0.58641976" ModuleID="14" Name="module14" TextureID="3" Type="RECTANGLE" Width="0.71428573" X="0.26666668" Y="0.037037037"/>
+<Module Height="1.0" ModuleID="15" Name="CARD_MODULE" TextureID="1" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+<Module Height="0.39106956" ModuleID="30" Name="module30" TextureID="0" Type="RECTANGLE" Width="0.34797502" X="0.33929825" Y="0.38303733"/>
+<Module Height="1.0" ModuleID="16" Name="module16" TextureID="5" Type="RECTANGLE" Width="0.22880867" X="0.0" Y="0.0"/>
+<Module Height="0.7886599" ModuleID="17" Name="module17" TextureID="5" Type="RECTANGLE" Width="0.42877597" X="0.2538046" Y="0.08762893"/>
+<Module Height="0.9690722" ModuleID="18" Name="module18" TextureID="5" Type="RECTANGLE" Width="0.6422026" X="0.4544128" Y="0.0"/>
+<Module Height="0.88402057" ModuleID="20" Name="module20" TextureID="5" Type="RECTANGLE" Width="0.84857935" X="0.65309846" Y="0.0"/>
+<Module Height="0.47422677" ModuleID="22" Name="module22" TextureID="5" Type="RECTANGLE" Width="1.0004776" X="0.8665251" Y="0.018041197"/>
+<Module Height="1.0" ModuleID="23" Name="CARD_GLOW_MODULE" TextureID="7" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+<Module Height="1.0" ModuleID="24" Name="module24" TextureID="6" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+</Modules>
+<Frames>
+<Frame FrameID="0" Name="aisle">
+<Module ModuleID="0">
+<Position X="0.0" Y="0.0"/>
+<Scale X="2.25" Y="2.25"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="0">
+<Position X="0.0" Y="0.0"/>
+<Scale X="-2.25" Y="2.25"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="1">
+<Position X="0.0" Y="642.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="2">
+<Position X="42.16739" Y="464.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="1">
+<Position X="0.0" Y="642.0"/>
+<Scale X="-1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="2">
+<Position X="-42.16739" Y="464.0"/>
+<Scale X="-1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="1" Name="rocket1">
+<Module ModuleID="16">
+<Position X="-64.44142" Y="-75.23364"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="2" Name="door">
+<Module ModuleID="4">
+<Position X="-42.0" Y="467.0"/>
+<Scale X="0.3525" Y="0.3525"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="3" Name="gun1">
+<Module ModuleID="3">
+<Position X="-133.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="4" Name="gun2">
+<Module ModuleID="13">
+<Position X="-26.0" Y="175.0"/>
+<Scale X="0.5" Y="0.5"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="5" Name="fire">
+<Module ModuleID="5">
+<Position X="-62.446297" Y="-55.57423"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="6" Name="dark">
+<Module ModuleID="14">
+<Position X="0.0" Y="0.0"/>
+<Scale X="3.0" Y="2.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="7" Name="CARD_IMAGE">
+<Module ModuleID="15">
+<Position X="-160.0" Y="-208.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="8" Name="star">
+<Module ModuleID="9">
+<Position X="-31.372551" Y="-28.085901"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="9" Name="title">
+<Module ModuleID="12">
+<Position X="-150.0" Y="-41.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="11">
+<Position X="124.91358" Y="-34.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="11" Name="rocketFire1">
+<Module ModuleID="6">
+<Position X="-136.90526" Y="-127.0"/>
+<Scale X="1.132" Y="1.132"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="12" Name="rocket2">
+<Module ModuleID="17">
+<Position X="-53.000736" Y="-50.4673"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="13" Name="rocket3">
+<Module ModuleID="18">
+<Position X="-52.76724" Y="-80.14018"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="14" Name="rocket4">
+<Module ModuleID="20">
+<Position X="-50.899406" Y="-72.19622"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="15" Name="rocket5">
+<Module ModuleID="22">
+<Position X="-31.286785" Y="-30.841116"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="17" Name="shootG">
+<Module ModuleID="8">
+<Position X="-89.37476" Y="24.989546"/>
+<Scale X="1.75" Y="1.75"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="16" Name="cardGlow">
+<Module ModuleID="23">
+<Position X="-220.0" Y="0.0"/>
+<Scale X="4.0" Y="4.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="23">
+<Position X="-220.0" Y="0.0"/>
+<Scale X="4.0" Y="-4.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="23">
+<Position X="220.0" Y="0.0"/>
+<Scale X="-4.0" Y="4.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="23">
+<Position X="220.0" Y="0.0"/>
+<Scale X="-4.0" Y="-4.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="18" Name="shoot">
+<Module ModuleID="7">
+<Position X="-114.072655" Y="-24.20183"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="20" Name="shine1">
+<Module ModuleID="24">
+<Position X="-160.0" Y="-208.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="23" Name="cardCover">
+<Module ModuleID="30">
+<Position X="-160.00002" Y="-208.0"/>
+<Scale X="40.0" Y="52.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+</Frames>
+<Animations>
+<KeyframeAnimation AnimationID="0" End="31" Name="animation0" Start="0">
+<Object Name="aisle2" ObjectID="112">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="-2.1442845" Y="107.990875"/>
+<Scale X="0.1" Y="0.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="10" Object="FID: 0" Visible="true">
+<Position X="-8.482918" Y="104.1202"/>
+<Scale X="0.125" Y="0.125"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="16" Object="FID: 0" Visible="true">
+<Position X="8.403401" Y="95.50099"/>
+<Scale X="0.125" Y="0.125"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="25" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="98.31419"/>
+<Scale X="0.125" Y="0.125"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="door" ObjectID="992" ParentID="112">
+<Keyframe Frame="0" Object="FID: 2" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="aisle1" ObjectID="734">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="-4.0673656" Y="-40.0"/>
+<Scale X="0.37" Y="0.37"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="4" Object="FID: 0" Visible="true">
+<Position X="-7.948949" Y="-67.88278"/>
+<Scale X="0.43" Y="0.43"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="10" Object="FID: 0" Visible="true">
+<Position X="-13.771323" Y="-111.95581"/>
+<Scale X="0.52" Y="0.52"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="16" Object="FID: 0" Visible="true">
+<Position X="6.489233" Y="-105.27004"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="22" Object="FID: 0" Visible="true">
+<Position X="-4.012985" Y="-113.16975"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="25" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-110.27335"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="gun2" ObjectID="111">
+<Keyframe Frame="14" Object="FID: 4" Visible="true">
+<Position X="0.0" Y="-224.03287"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.667</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="17" Object="FID: 4" Visible="true">
+<Position X="4.7955737" Y="-224.03279"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.4850909</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="25" Object="FID: 4" Visible="true">
+<Position X="0.0" Y="-232.16179"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="gun" ObjectID="708">
+<Keyframe Frame="2" Object="FID: 3" Visible="true">
+<Position X="229.74066" Y="-81.46416"/>
+<Scale X="0.7" Y="0.7"/>
+<Rotation>2.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="7" Object="FID: 3" Visible="true">
+<Position X="21.253088" Y="-31.334352"/>
+<Scale X="1.1" Y="1.1"/>
+<Rotation>2.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="10" Object="FID: 3" Visible="true">
+<Position X="29.285666" Y="-99.68734"/>
+<Scale X="1.8" Y="1.8"/>
+<Rotation>2.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="16" Object="FID: 3" Visible="true">
+<Position X="-1.797142" Y="-216.35973"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 3" Visible="true">
+<Position X="-1.7971432" Y="-200.05486"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="25" Object="FID: 3" Visible="true">
+<Position X="0.0" Y="-232.16179"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="shoot1" ObjectID="9">
+<Keyframe Frame="25" Object="FID: 17" Visible="true">
+<Position X="-318.30545" Y="180.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="29" Object="FID: 17" Visible="false">
+<Position X="0.0" Y="180.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="shoot2" ObjectID="395">
+<Keyframe Frame="25" Object="FID: 17" Visible="true">
+<Position X="0.0" Y="515.24243"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="29" Object="FID: 17" Visible="false">
+<Position X="0.0" Y="180.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="shoot3" ObjectID="910">
+<Keyframe Frame="25" Object="FID: 17" Visible="true">
+<Position X="318.0" Y="180.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="29" Object="FID: 17" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="30" Object="FID: 17" Visible="false">
+<Position X="0.0" Y="180.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="31" Object="FID: 18" Visible="true">
+<Position X="0.0" Y="220.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+<KeyframeAnimation AnimationID="2" End="47" Name="animation2" Start="0">
+<Object Name="aisle2" ObjectID="112">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="98.31419"/>
+<Scale X="0.125" Y="0.125"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="8" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="58.033146"/>
+<Scale X="0.19838709" Y="0.19838709"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="16" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-93.795425"/>
+<Scale X="0.475" Y="0.475"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="30" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-109.93244"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="47" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-109.93244"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="dark" ObjectID="583">
+<Keyframe Frame="30" Object="FID: 6" Visible="true">
+<Position X="-183.30887" Y="-78.76559"/>
+<Scale X="3.0" Y="3.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.69</Alpha>
+</Keyframe>
+<Keyframe Frame="47" Object="FID: 6" Visible="true">
+<Position X="-183.30887" Y="-78.76559"/>
+<Scale X="3.0" Y="3.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.4</Alpha>
+</Keyframe>
+</Object>
+<Object Name="door" ObjectID="992" ParentID="112">
+<Keyframe Frame="0" Object="FID: 2" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="30" Object="FID: 2" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="32" Object="FID: 2" Visible="true">
+<Position X="-252.75763" Y="-770.45905"/>
+<Scale X="2.3333335" Y="2.3333335"/>
+<Rotation>-6.666667</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="33" Object="FID: 2" Visible="true">
+<Position X="-471.9936" Y="-1024.7363"/>
+<Scale X="3.0" Y="3.0"/>
+<Rotation>-10.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="34" Object="FID: 2" Visible="false">
+<Position X="-392.87036" Y="-1306.8127"/>
+<Scale X="3.5" Y="3.5"/>
+<Rotation>-8.333333</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="aisle1" ObjectID="734">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-110.27335"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="9" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-451.97144"/>
+<Scale X="1.1290323" Y="1.1290323"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="16" Object="FID: 0" Visible="false">
+<Position X="0.0" Y="-1739.9104"/>
+<Scale X="3.5" Y="3.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="rocket" ObjectID="804">
+<Keyframe Frame="9" Object="FID: 1" Visible="true">
+<Position X="12.0" Y="81.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="11" Object="FID: 1" Visible="true">
+<Position X="68.223404" Y="116.47873"/>
+<Scale X="0.8851064" Y="0.8851064"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="13" Object="FID: 1" Visible="true">
+<Position X="95.07624" Y="194.37766"/>
+<Scale X="0.7893617" Y="0.7893617"/>
+<Rotation>30.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="14" Object="FID: 12" Visible="true">
+<Position X="100.44681" Y="209.95744"/>
+<Scale X="0.77021277" Y="0.77021277"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="16" Object="FID: 12" Visible="true">
+<Position X="77.57162" Y="269.1683"/>
+<Scale X="0.6361702" Y="0.6361702"/>
+<Rotation>17.5</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="18" Object="FID: 12" Visible="true">
+<Position X="12.252586" Y="294.00464"/>
+<Scale X="0.54042554" Y="0.54042554"/>
+<Rotation>30.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="19" Object="FID: 13" Visible="true">
+<Position X="-2.319149" Y="299.7447"/>
+<Scale X="0.5212766" Y="0.5212766"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 13" Visible="true">
+<Position X="-63.531784" Y="272.02112"/>
+<Scale X="0.40638298" Y="0.40638298"/>
+<Rotation>18.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="23" Object="FID: 13" Visible="true">
+<Position X="-75.42863" Y="217.89711"/>
+<Scale X="0.32978725" Y="0.32978725"/>
+<Rotation>30.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="24" Object="FID: 14" Visible="true">
+<Position X="-79.65958" Y="204.87234"/>
+<Scale X="0.3106383" Y="0.3106383"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="26" Object="FID: 14" Visible="true">
+<Position X="-41.77139" Y="179.64925"/>
+<Scale X="0.2468085" Y="0.2468085"/>
+<Rotation>18.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="28" Object="FID: 14" Visible="true">
+<Position X="-28.417364" Y="176.41158"/>
+<Scale X="0.20425531" Y="0.20425531"/>
+<Rotation>30.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="29" Object="FID: 15" Visible="true">
+<Position X="-20.117989" Y="175.2147"/>
+<Scale X="0.19574468" Y="0.19574468"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="30" Object="FID: 15" Visible="false">
+<Position X="2.0" Y="167.0"/>
+<Scale X="0.1" Y="0.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="rocketFire" ObjectID="406" ParentID="804">
+<Keyframe Frame="9" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="11" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="0.4" Y="0.4"/>
+<Rotation>45.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="13" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="15" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="0.4" Y="0.4"/>
+<Rotation>45.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="17" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="19" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="0.4" Y="0.4"/>
+<Rotation>45.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="23" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="0.4" Y="0.4"/>
+<Rotation>45.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="25" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="27" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="0.4" Y="0.4"/>
+<Rotation>45.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="29" Object="FID: 11" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="30" Object="FID: 11" Visible="false">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="explosion1" ObjectID="434" ParentID="734">
+<Keyframe Frame="8" Object="FID: 5" Visible="true">
+<Position X="0.0" Y="322.62448"/>
+<Scale X="5.0" Y="5.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="27" Object="FID: 5" Visible="false">
+<Position X="0.0" Y="322.62448"/>
+<Scale X="5.45" Y="5.45"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.1</Alpha>
+</Keyframe>
+</Object>
+<Object Name="explosion2" ObjectID="716">
+<Keyframe Frame="30" Object="FID: 5" Visible="true">
+<Position X="0.0" Y="164.70343"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="34" Object="FID: 5" Visible="true">
+<Position X="37.67441" Y="47.029015"/>
+<Scale X="4.636" Y="4.636"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.64</Alpha>
+</Keyframe>
+<Keyframe Frame="35" Object="FID: 5" Visible="true">
+<Position X="9.302326" Y="37.959244"/>
+<Scale X="5.545" Y="5.545"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.55</Alpha>
+</Keyframe>
+<Keyframe Frame="46" Object="FID: 5" Visible="true">
+<Position X="18.604652" Y="-88.784935"/>
+<Scale X="10.09" Y="10.09"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.1</Alpha>
+</Keyframe>
+</Object>
+<Object Name="door2" ObjectID="424">
+<Keyframe Frame="34" Object="FID: 2" Visible="true">
+<Position X="-207.05634" Y="-908.8479"/>
+<Scale X="2.0" Y="2.0"/>
+<Rotation>-8.333333</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="36" Object="FID: 2" Visible="true">
+<Position X="-0.07223058" Y="-1319.6233"/>
+<Scale X="2.6666667" Y="2.6666667"/>
+<Rotation>-0.55555534</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="39" Object="FID: 2" Visible="true">
+<Position X="449.86255" Y="-1879.2313"/>
+<Scale X="3.8333335" Y="3.8333335"/>
+<Rotation>7.222223</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="40" Object="FID: 2" Visible="false">
+<Position X="616.772" Y="-2060.4766"/>
+<Scale X="4.2222223" Y="4.2222223"/>
+<Rotation>9.8148155</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="gun2" ObjectID="111">
+<Keyframe Frame="0" Object="FID: 4" Visible="true">
+<Position X="0.0" Y="-232.16179"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="9" Object="FID: 4" Visible="false">
+<Position X="1.2413107" Y="-4816.872"/>
+<Scale X="20.0" Y="20.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="gun" ObjectID="708">
+<Keyframe Frame="0" Object="FID: 3" Visible="true">
+<Position X="0.0" Y="-232.16179"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="4" Object="FID: 3" Visible="false">
+<Position X="0.0" Y="-3288.8523"/>
+<Scale X="13.877778" Y="13.877778"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+<KeyframeAnimation AnimationID="3" End="60" Name="animation3" Start="0">
+<Object Name="aisle" ObjectID="231">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-109.93244"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="dark" ObjectID="704">
+<Keyframe Frame="0" Object="FID: 6" Visible="true">
+<Position X="-183.30887" Y="-78.76559"/>
+<Scale X="3.0" Y="3.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.69</Alpha>
+</Keyframe>
+</Object>
+<Object Name="card" ObjectID="488">
+<Keyframe Frame="0" Object="FID: 7" Visible="true">
+<Position X="0.0" Y="170.0"/>
+<Scale X="0.1" Y="0.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="10" Object="FID: 7" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="0.8" Y="0.8"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="60" Object="FID: 7" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="0.85" Y="0.85"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="white" ObjectID="747" ParentID="488">
+<Keyframe Frame="0" Object="FID: 23" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="10" Object="FID: 23" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="shine" ObjectID="49" ParentID="488">
+<Keyframe Frame="18" Object="FID: 20" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.5</Alpha>
+</Keyframe>
+</Object>
+<Object Name="star1" ObjectID="951" ParentID="488">
+<Keyframe Frame="30" Object="FID: 8" Visible="true">
+<Position X="-66.93209" Y="115.40013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="33" Object="FID: 8" Visible="true">
+<Position X="-66.93209" Y="115.40013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="38" Object="FID: 8" Visible="true">
+<Position X="-66.93209" Y="115.40013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="40" Object="FID: 8" Visible="true">
+<Position X="-106.16814" Y="-71.54813"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="43" Object="FID: 8" Visible="true">
+<Position X="-106.16814" Y="-71.54813"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="48" Object="FID: 8" Visible="true">
+<Position X="-106.16814" Y="-71.54813"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="50" Object="FID: 8" Visible="true">
+<Position X="86.55012" Y="-15.002043"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="53" Object="FID: 8" Visible="true">
+<Position X="86.55012" Y="-15.002043"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="60" Object="FID: 8" Visible="true">
+<Position X="86.55012" Y="-15.002043"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="star2" ObjectID="858" ParentID="488">
+<Keyframe Frame="35" Object="FID: 8" Visible="true">
+<Position X="23.080032" Y="-88.85814"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="38" Object="FID: 8" Visible="true">
+<Position X="23.080032" Y="-88.85814"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="43" Object="FID: 8" Visible="true">
+<Position X="23.080032" Y="-88.85814"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="45" Object="FID: 8" Visible="true">
+<Position X="-91.16611" Y="30.004013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="48" Object="FID: 8" Visible="true">
+<Position X="-91.16611" Y="30.004013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="53" Object="FID: 8" Visible="true">
+<Position X="-91.16611" Y="30.004013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="title" ObjectID="667">
+<Keyframe Frame="10" Object="FID: 9" Visible="true">
+<Position X="0.0" Y="78.0"/>
+<Scale X="0.0" Y="0.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="15" Object="FID: 9" Visible="true">
+<Position X="0.0" Y="75.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+<KeyframeAnimation AnimationID="4" End="60" Name="animation4" Start="0">
+<Object Name="aisle" ObjectID="109">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-109.93244"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="dark" ObjectID="955">
+<Keyframe Frame="0" Object="FID: 6" Visible="true">
+<Position X="-183.30887" Y="-78.76559"/>
+<Scale X="3.0" Y="3.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.69</Alpha>
+</Keyframe>
+</Object>
+<Object Name="cardGlow" ObjectID="92">
+<Keyframe Frame="0" Object="FID: 16" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="0.85" Y="0.85"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="30" Object="FID: 16" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="0.85" Y="0.85"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.4</Alpha>
+</Keyframe>
+<Keyframe Frame="60" Object="FID: 16" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="0.85" Y="0.85"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="card" ObjectID="959">
+<Keyframe Frame="0" Object="FID: 7" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="0.85" Y="0.85"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="shine" ObjectID="512" ParentID="959">
+<Keyframe Frame="0" Object="FID: 20" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.5</Alpha>
+</Keyframe>
+</Object>
+<Object Name="star1" ObjectID="951" ParentID="959">
+<Keyframe Frame="0" Object="FID: 8" Visible="true">
+<Position X="-66.93209" Y="115.40013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="3" Object="FID: 8" Visible="true">
+<Position X="-66.93209" Y="115.40013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="8" Object="FID: 8" Visible="true">
+<Position X="-66.93209" Y="115.40013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="10" Object="FID: 8" Visible="true">
+<Position X="-106.16814" Y="-71.54813"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="13" Object="FID: 8" Visible="true">
+<Position X="-106.16814" Y="-71.54813"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="18" Object="FID: 8" Visible="true">
+<Position X="-106.16814" Y="-71.54813"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="20" Object="FID: 8" Visible="true">
+<Position X="86.55012" Y="-15.002043"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="23" Object="FID: 8" Visible="true">
+<Position X="86.55012" Y="-15.002043"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="28" Object="FID: 8" Visible="true">
+<Position X="86.55012" Y="-15.002043"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="32" Object="FID: 8" Visible="true">
+<Position X="24.113432" Y="-130.01698"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="35" Object="FID: 8" Visible="true">
+<Position X="24.113432" Y="-130.01698"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="39" Object="FID: 8" Visible="true">
+<Position X="24.113432" Y="-130.01698"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="44" Object="FID: 8" Visible="true">
+<Position X="-7.6525693" Y="24.43168"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="47" Object="FID: 8" Visible="true">
+<Position X="-7.6525693" Y="24.43168"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="51" Object="FID: 8" Visible="true">
+<Position X="-7.6525693" Y="24.43168"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="star2" ObjectID="858" ParentID="959">
+<Keyframe Frame="5" Object="FID: 8" Visible="true">
+<Position X="23.080032" Y="-88.85814"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="8" Object="FID: 8" Visible="true">
+<Position X="23.080032" Y="-88.85814"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="13" Object="FID: 8" Visible="true">
+<Position X="23.080032" Y="-88.85814"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="15" Object="FID: 8" Visible="true">
+<Position X="-91.16611" Y="30.004013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="18" Object="FID: 8" Visible="true">
+<Position X="-91.16611" Y="30.004013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="23" Object="FID: 8" Visible="true">
+<Position X="-91.16611" Y="30.004013"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="27" Object="FID: 8" Visible="true">
+<Position X="76.691696" Y="131.77892"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="30" Object="FID: 8" Visible="true">
+<Position X="76.691696" Y="131.77892"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="34" Object="FID: 8" Visible="true">
+<Position X="76.691696" Y="131.77892"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="41" Object="FID: 8" Visible="true">
+<Position X="-107.33218" Y="167.92648"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="44" Object="FID: 8" Visible="true">
+<Position X="-107.33218" Y="167.92648"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="48" Object="FID: 8" Visible="true">
+<Position X="-107.33218" Y="167.92648"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="53" Object="FID: 8" Visible="true">
+<Position X="-61.32619" Y="-154.11533"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="56" Object="FID: 8" Visible="true">
+<Position X="-61.32619" Y="-154.11533"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="60" Object="FID: 8" Visible="true">
+<Position X="-61.32619" Y="-154.11533"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>180.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="title" ObjectID="704">
+<Keyframe Frame="0" Object="FID: 9" Visible="true">
+<Position X="0.0" Y="75.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+<KeyframeAnimation AnimationID="1" End="0" Name="animation0" Start="0">
+<Object Name="aisle2" ObjectID="112">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="98.31419"/>
+<Scale X="0.125" Y="0.125"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="door" ObjectID="992" ParentID="112">
+<Keyframe Frame="0" Object="FID: 2" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="aisle1" ObjectID="734">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="0.0" Y="-110.27335"/>
+<Scale X="0.5" Y="0.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="gun2" ObjectID="111">
+<Keyframe Frame="0" Object="FID: 4" Visible="true">
+<Position X="0.0" Y="-232.16179"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="gun" ObjectID="708">
+<Keyframe Frame="0" Object="FID: 3" Visible="true">
+<Position X="0.0" Y="-232.16179"/>
+<Scale X="1.6333333" Y="1.6333333"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="shoot3" ObjectID="910">
+<Keyframe Frame="0" Object="FID: 18" Visible="true">
+<Position X="0.0" Y="220.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+</Animations>
+</Sprite>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Sprite>
+<Textures>
+<Texture FileName="/scripts/mex/anims/youLose/youLose.png" Height="614" ImageID="0" Type="FILE" Width="1340"/>
+<Texture FileName="/scripts/mex/anims/common/triangle.gif" Height="9" ImageID="1" Type="FILE" Width="16"/>
+</Textures>
+<Modules>
+<Module Height="0.7097172" ModuleID="0" Name="Body1HeadModule" TextureID="0" Type="RECTANGLE" Width="0.767479" X="0.83993316" Y="0.5260927"/>
+<Module Height="0.99016005" ModuleID="1" Name="Body1Module" TextureID="0" Type="RECTANGLE" Width="0.8985075" X="0.76481384" Y="0.71903837"/>
+<Module Height="0.71709716" ModuleID="2" Name="RightArmModule" TextureID="0" Type="RECTANGLE" Width="0.96074355" X="0.85" Y="0.5260586"/>
+<Module Height="0.5104551" ModuleID="3" Name="RightLegModule" TextureID="0" Type="RECTANGLE" Width="0.91641784" X="0.9930677" Y="0.23739232"/>
+<Module Height="0.52275515" ModuleID="4" Name="LeftArmModule" TextureID="0" Type="RECTANGLE" Width="0.7653723" X="0.9107818" Y="0.2964329"/>
+<Module Height="0.28413278" ModuleID="5" Name="LeftLegmodule" TextureID="0" Type="RECTANGLE" Width="0.7798508" X="0.8499127" Y="0.21009772"/>
+<Module Height="0.99999994" ModuleID="6" Name="BackgroundModule" TextureID="0" Type="RECTANGLE" Width="0.7552239" X="0.515133" Y="0.38253385"/>
+<Module Height="0.6506764" ModuleID="7" Name="Blood1Module" TextureID="0" Type="RECTANGLE" Width="0.15780868" X="0.05410578" Y="0.4243542"/>
+<Module Height="0.8671586" ModuleID="8" Name="Blood2Module" TextureID="0" Type="RECTANGLE" Width="0.1623175" X="0.04959696" Y="0.66297656"/>
+<Module Height="0.84993845" ModuleID="9" Name="Blood3Module" TextureID="0" Type="RECTANGLE" Width="0.23880598" X="0.17471676" Y="0.70846903"/>
+<Module Height="0.33224756" ModuleID="10" Name="Body2Module" TextureID="0" Type="RECTANGLE" Width="0.48656717" X="0.24328358" Y="0.0"/>
+<Module Height="0.34071338" ModuleID="11" Name="Body2HeadModule" TextureID="0" Type="RECTANGLE" Width="0.6604478" X="0.5793832" Y="0.13029316"/>
+<Module Height="0.3653136" ModuleID="12" Name="Body2ArmModule" TextureID="0" Type="RECTANGLE" Width="0.74925375" X="0.669403" Y="0.09446254"/>
+<Module Height="0.13161126" ModuleID="13" Name="EmptyModule" TextureID="0" Type="RECTANGLE" Width="0.90063685" X="0.9164179" Y="0.060270544"/>
+<Module Height="0.9641694" ModuleID="14" Name="YouLoseModule" TextureID="0" Type="RECTANGLE" Width="0.057462685" X="0.24402985" Y="0.8859935"/>
+<Module Height="0.5342019" ModuleID="15" Name="BulletHoleModule" TextureID="0" Type="RECTANGLE" Width="0.19701493" X="0.21119404" Y="0.490228"/>
+<Module Height="0.5547355" ModuleID="16" Name="CrackModule" TextureID="0" Type="RECTANGLE" Width="0.19613352" X="0.17246221" Y="0.5153751"/>
+<Module Height="0.16123778" ModuleID="17" Name="MESSAGE_MODULE" TextureID="0" Type="RECTANGLE" Width="0.2358209" X="0.012399063" Y="0.025830207"/>
+<Module Height="1.0" ModuleID="18" Name="ArrowModule" TextureID="1" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+</Modules>
+<Frames>
+<Frame FrameID="0" Name="frame0">
+<Module ModuleID="0">
+<Position X="-56.96622" Y="-53.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="1" Name="frame1">
+<Module ModuleID="1">
+<Position X="-91.94546" Y="-60.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="2" Name="frame2">
+<Module ModuleID="2">
+<Position X="-88.947235" Y="-57.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="3" Name="frame3">
+<Module ModuleID="3">
+<Position X="-52.96859" Y="-82.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="4" Name="frame4">
+<Module ModuleID="4">
+<Position X="-92.94487" Y="-60.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="5" Name="frame5">
+<Module ModuleID="5">
+<Position X="-44.97333" Y="-19.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="6" Name="frame6">
+<Module ModuleID="6">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="7" Name="frame7">
+<Module ModuleID="7">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="8" Name="frame8">
+<Module ModuleID="8">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="9" Name="frame9">
+<Module ModuleID="9">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="10" Name="frame10">
+<Module ModuleID="10">
+<Position X="-186.88913" Y="-80.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="11" Name="frame11">
+<Module ModuleID="11">
+<Position X="-50.96977" Y="-60.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="12" Name="frame12">
+<Module ModuleID="12">
+<Position X="-41.975113" Y="-72.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="13" Name="frame13">
+<Module ModuleID="13">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="14" Name="frame14">
+<Module ModuleID="14">
+<Position X="-126.0" Y="-26.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="15" Name="frame15">
+<Module ModuleID="15">
+<Position X="30.506775" Y="-0.13812155"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="16">
+<Position X="-1.5184467" Y="16.298342"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="17" Name="frame17">
+<Module ModuleID="17">
+<Position X="-150.0" Y="-45.0"/>
+<Scale X="1.0" Y="2.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="18">
+<Position X="123.91429" Y="-35.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="16" Name="frame16">
+<Module ModuleID="15">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+<Module ModuleID="16">
+<Position X="-35.61425" Y="20.441978"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+</Frames>
+<Animations>
+<KeyframeAnimation AnimationID="0" End="59" Name="animation0" Start="0">
+<Object Name="Parent" ObjectID="854">
+<Keyframe Frame="0" Object="FID: 13" Visible="true">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="50" Object="FID: 13" Visible="true">
+<Position X="-69.23077" Y="45.4374"/>
+<Scale X="0.8" Y="0.8"/>
+<Rotation>-16.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Background" ObjectID="867" ParentID="854">
+<Keyframe Frame="0" Object="FID: 6" Visible="true">
+<Position X="-160.38536" Y="-153.66774"/>
+<Scale X="1.75" Y="1.75"/>
+<Rotation>18.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Blood1" ObjectID="367" ParentID="854">
+<Keyframe Frame="0" Object="FID: 7" Visible="true">
+<Position X="-131.39531" Y="115.11627"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Blood2" ObjectID="789" ParentID="854">
+<Keyframe Frame="0" Object="FID: 8" Visible="true">
+<Position X="-8.139536" Y="256.97675"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Blood3" ObjectID="197" ParentID="854">
+<Keyframe Frame="0" Object="FID: 9" Visible="true">
+<Position X="98.83718" Y="102.325554"/>
+<Scale X="0.6" Y="0.6"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="LeftHand" ObjectID="765" ParentID="854">
+<Keyframe Frame="0" Object="FID: 4" Visible="true">
+<Position X="37.0" Y="-107.0"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>3.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 4" Visible="true">
+<Position X="19.500006" Y="-15.430239"/>
+<Scale X="1.3" Y="1.3"/>
+<Rotation>3.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="RightLeg" ObjectID="701" ParentID="854">
+<Keyframe Frame="0" Object="FID: 3" Visible="true">
+<Position X="233.0" Y="5.0"/>
+<Scale X="1.3" Y="1.3"/>
+<Rotation>7.5</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 3" Visible="true">
+<Position X="219.04645" Y="20.116276"/>
+<Scale X="1.3" Y="1.3"/>
+<Rotation>7.5</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="RightArm" ObjectID="401" ParentID="854">
+<Keyframe Frame="0" Object="FID: 2" Visible="true">
+<Position X="218.0" Y="60.0"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>-18.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 2" Visible="true">
+<Position X="200.5581" Y="94.88371"/>
+<Scale X="1.3" Y="1.3"/>
+<Rotation>-3.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Head" ObjectID="989" ParentID="854">
+<Keyframe Frame="0" Object="FID: 0" Visible="true">
+<Position X="121.0" Y="9.0"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 0" Visible="true">
+<Position X="103.23914" Y="75.17602"/>
+<Scale X="1.3" Y="1.3"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Body" ObjectID="310" ParentID="854">
+<Keyframe Frame="0" Object="FID: 1" Visible="true">
+<Position X="215.0" Y="-116.0"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 1" Visible="true">
+<Position X="191.74419" Y="-48.558147"/>
+<Scale X="1.3" Y="1.3"/>
+<Rotation>6.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="RightArm2" ObjectID="866" ParentID="854">
+<Keyframe Frame="0" Object="FID: 12" Visible="true">
+<Position X="-113.9535" Y="166.27904"/>
+<Scale X="-1.5" Y="1.5"/>
+<Rotation>233.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 12" Visible="true">
+<Position X="-113.9535" Y="166.27904"/>
+<Scale X="-1.5" Y="1.5"/>
+<Rotation>233.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="LeftArm2" ObjectID="274" ParentID="854">
+<Keyframe Frame="0" Object="FID: 12" Visible="true">
+<Position X="226.74411" Y="426.74426"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>-90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 12" Visible="true">
+<Position X="226.74411" Y="426.74426"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>-90.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="35" Object="FID: 12" Visible="true">
+<Position X="137.20924" Y="366.2791"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>-156.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Head2" ObjectID="571" ParentID="854">
+<Keyframe Frame="0" Object="FID: 11" Visible="true">
+<Position X="-20.930231" Y="295.34882"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>204.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 11" Visible="true">
+<Position X="-20.930231" Y="295.34882"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>204.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Body2" ObjectID="622" ParentID="854">
+<Keyframe Frame="0" Object="FID: 10" Visible="true">
+<Position X="-122.09302" Y="423.25574"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>204.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="21" Object="FID: 10" Visible="true">
+<Position X="-122.09302" Y="423.25574"/>
+<Scale X="1.5" Y="1.5"/>
+<Rotation>204.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="YouLose" ObjectID="975">
+<Keyframe Frame="37" Object="FID: 14" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="0.1" Y="0.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="45" Object="FID: 14" Visible="true">
+<Position X="0.0" Y="180.0"/>
+<Scale X="1.3" Y="1.3"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Shoot1" ObjectID="255">
+<Keyframe Frame="47" Object="FID: 16" Visible="true">
+<Position X="-87.61439" Y="173.07698"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Shoot2" ObjectID="251">
+<Keyframe Frame="52" Object="FID: 15" Visible="true">
+<Position X="57.466045" Y="181.86275"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>-26.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="TextArea" ObjectID="352">
+<Keyframe Frame="0" Object="FID: 17" Visible="false">
+<Position X="-0.18220615" Y="31.950066"/>
+<Scale X="0.1" Y="0.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="54" Object="FID: 17" Visible="true">
+<Position X="-0.18220615" Y="31.950066"/>
+<Scale X="0.1" Y="0.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="59" Object="FID: 17" Visible="true">
+<Position X="-0.18220615" Y="31.950066"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+</Animations>
+</Sprite>

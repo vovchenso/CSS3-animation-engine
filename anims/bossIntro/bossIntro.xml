@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Sprite>
+<Textures>
+<Texture FileName="/scripts/mex/anims/bossIntro/bossIntro.png" Height="126" ImageID="0" Type="FILE" Width="1090"/>
+<Texture FileName="" Height="61" ImageID="1" Type="FILE" Width="272"/>
+<Texture FileName="" Height="203" ImageID="2" Type="FILE" Width="320"/>
+</Textures>
+<Modules>
+<Module Height="0.87301594" ModuleID="0" Name="topframemodule" TextureID="0" Type="RECTANGLE" Width="0.61284405" X="0.31926605" Y="0.77777785"/>
+<Module Height="0.88888896" ModuleID="1" Name="bottomframemodule" TextureID="0" Type="RECTANGLE" Width="0.9311927" X="0.63761467" Y="0.79365087"/>
+<Module Height="0.54761904" ModuleID="2" Name="BossAppearsModule" TextureID="0" Type="RECTANGLE" Width="1.0" X="0.59266055" Y="0.071428575"/>
+<Module Height="1.0" ModuleID="3" Name="BOSS_MODULE" TextureID="1" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+<Module Height="1.0" ModuleID="4" Name="BOSS_BACKGROUND" TextureID="2" Type="RECTANGLE" Width="1.0" X="0.0" Y="0.0"/>
+<Module Height="0.3888889" ModuleID="5" Name="redmodule" TextureID="0" Type="RECTANGLE" Width="0.3119266" X="0.018348623" Y="0.15873016"/>
+<Module Height="0.8817371" ModuleID="6" Name="blackmodule" TextureID="0" Type="RECTANGLE" Width="0.017239625" X="0.008065313" Y="0.80237204"/>
+<Module Height="0.51456475" ModuleID="7" Name="TaptheScreenModule" TextureID="0" Type="RECTANGLE" Width="0.3635951" X="0.32689783" Y="0.11773945"/>
+</Modules>
+<Frames>
+<Frame FrameID="0" Name="frame0">
+<Module ModuleID="6">
+<Position X="0.90758" Y="-64.43816"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="1" Name="frame1">
+<Module ModuleID="4">
+<Position X="-160.0" Y="-101.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="2" Name="frame2">
+<Module ModuleID="0">
+<Position X="-160.0" Y="-6.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="3" Name="frame3">
+<Module ModuleID="1">
+<Position X="-160.0" Y="-6.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="4" Name="frame4">
+<Module ModuleID="6">
+<Position X="-160.0" Y="-60.0"/>
+<Scale X="32.0" Y="6.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="5" Name="frame5">
+<Module ModuleID="3">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="6" Name="frame6">
+<Module ModuleID="2">
+<Position X="0.0" Y="0.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="8" Name="frame8">
+<Module ModuleID="6">
+<Position X="-160.0" Y="0.0"/>
+<Scale X="32.0" Y="6.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="9" Name="frame9">
+<Module ModuleID="7">
+<Position X="0.0" Y="0.0"/>
+<Scale X="8.0" Y="8.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+<Frame FrameID="10" Name="frame10">
+<Module ModuleID="5">
+<Position X="-159.98607" Y="-14.285719"/>
+<Scale X="1.0" Y="1.0"/>
+<Color A="1.0" B="1.0" G="1.0" R="1.0"/>
+</Module>
+</Frame>
+</Frames>
+<Animations>
+<KeyframeAnimation AnimationID="0" End="75" Name="animation0" Start="0">
+<Object Name="Background" ObjectID="572">
+<Keyframe Frame="15" Object="FID: 1" Visible="true">
+<Position X="0.0" Y="280.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="28" Object="FID: 1" Visible="true">
+<Position X="0.0" Y="280.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Red" ObjectID="973">
+<Keyframe Frame="36" Object="FID: 9" Visible="true">
+<Position X="-177.19565" Y="-34.38114"/>
+<Scale X="1.1" Y="1.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+<Keyframe Frame="37" Object="FID: 9" Visible="true">
+<Position X="-177.19565" Y="-34.38114"/>
+<Scale X="1.1" Y="1.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.4</Alpha>
+</Keyframe>
+<Keyframe Frame="39" Object="FID: 9" Visible="true">
+<Position X="-177.19565" Y="-33.21835"/>
+<Scale X="1.1" Y="1.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.37894738</Alpha>
+</Keyframe>
+<Keyframe Frame="75" Object="FID: 9" Visible="true">
+<Position X="-177.19565" Y="-34.38114"/>
+<Scale X="1.1" Y="1.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Boss" ObjectID="533">
+<Keyframe Frame="18" Object="FID: 5" Visible="true">
+<Position X="-180.18475" Y="98.81855"/>
+<Scale X="1.25" Y="1.25"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="46" Object="FID: 5" Visible="true">
+<Position X="-160.95398" Y="98.81855"/>
+<Scale X="1.25" Y="1.25"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="BlackBottom" ObjectID="838">
+<Keyframe Frame="0" Object="FID: 4" Visible="true">
+<Position X="0.0" Y="137.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="18" Object="FID: 4" Visible="true">
+<Position X="0.0" Y="137.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="28" Object="FID: 4" Visible="false">
+<Position X="0.0" Y="100.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="BottomFrame" ObjectID="657">
+<Keyframe Frame="0" Object="FID: 3" Visible="true">
+<Position X="0.0" Y="137.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="18" Object="FID: 3" Visible="true">
+<Position X="0.0" Y="137.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="28" Object="FID: 3" Visible="true">
+<Position X="0.0" Y="100.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="BlackTop" ObjectID="605">
+<Keyframe Frame="0" Object="FID: 8" Visible="true">
+<Position X="0.0" Y="137.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="18" Object="FID: 8" Visible="true">
+<Position X="0.0" Y="137.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="28" Object="FID: 8" Visible="false">
+<Position X="0.0" Y="176.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Topframe" ObjectID="668">
+<Keyframe Frame="0" Object="FID: 2" Visible="true">
+<Position X="0.0" Y="137.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="18" Object="FID: 2" Visible="true">
+<Position X="0.0" Y="137.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="28" Object="FID: 2" Visible="true">
+<Position X="0.0" Y="176.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Tap" ObjectID="679">
+<Keyframe Frame="70" Object="FID: 10" Visible="true">
+<Position X="0.0" Y="-45.348858"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="75" Object="FID: 10" Visible="true">
+<Position X="0.0" Y="70.93022"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+<KeyframeAnimation AnimationID="1" End="36" Name="animation0" Start="0">
+<Object Name="Background" ObjectID="572">
+<Keyframe Frame="0" Object="FID: 1" Visible="true">
+<Position X="0.0" Y="280.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Red" ObjectID="973">
+<Keyframe Frame="0" Object="FID: 9" Visible="true">
+<Position X="-177.19565" Y="-34.38114"/>
+<Scale X="1.1" Y="1.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.4</Alpha>
+</Keyframe>
+<Keyframe Frame="36" Object="FID: 9" Visible="true">
+<Position X="-177.19565" Y="-34.38114"/>
+<Scale X="1.1" Y="1.1"/>
+<Rotation>0.0</Rotation>
+<Alpha>0.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Boss" ObjectID="533">
+<Keyframe Frame="0" Object="FID: 5" Visible="true">
+<Position X="-160.95398" Y="98.81855"/>
+<Scale X="1.25" Y="1.25"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="BottomFrame" ObjectID="657">
+<Keyframe Frame="0" Object="FID: 3" Visible="true">
+<Position X="0.0" Y="100.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="TopFrame" ObjectID="668">
+<Keyframe Frame="0" Object="FID: 2" Visible="true">
+<Position X="0.0" Y="176.0"/>
+<Scale X="1.05" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Tap" ObjectID="297">
+<Keyframe Frame="0" Object="FID: 10" Visible="true">
+<Position X="0.0" Y="70.93022"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+<KeyframeAnimation AnimationID="2" End="55" Name="animation2" Start="0">
+<Object Name="Boss Appears" ObjectID="529">
+<Keyframe Frame="0" Object="FID: 6" Visible="true">
+<Position X="160.0" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="55" Object="FID: 6" Visible="false">
+<Position X="-605.0" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="121" Object="FID: 6" Visible="true">
+<Position X="-605.0" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Boss Appears 2" ObjectID="234">
+<Keyframe Frame="0" Object="FID: 6" Visible="false">
+<Position X="160.0" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="40" Object="FID: 6" Visible="true">
+<Position X="160.0" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="55" Object="FID: 6" Visible="true">
+<Position X="-58.57144" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+<KeyframeAnimation AnimationID="3" End="38" Name="animation2" Start="0">
+<Object Name="Boss Appears" ObjectID="529">
+<Keyframe Frame="0" Object="FID: 6" Visible="true">
+<Position X="-62.54544" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="38" Object="FID: 6" Visible="true">
+<Position X="-591.09094" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+<Object Name="Boss Appears 2" ObjectID="234">
+<Keyframe Frame="24" Object="FID: 6" Visible="true">
+<Position X="160.0" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+<Keyframe Frame="38" Object="FID: 6" Visible="true">
+<Position X="-44.000015" Y="237.0"/>
+<Scale X="1.0" Y="1.0"/>
+<Rotation>0.0</Rotation>
+<Alpha>1.0</Alpha>
+</Keyframe>
+</Object>
+</KeyframeAnimation>
+</Animations>
+</Sprite>
